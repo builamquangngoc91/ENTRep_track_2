@@ -1,21 +1,6 @@
 # ENT Medical Image Retrieval System
 
 This project implements a deep learning-based medical image retrieval system for Ear, Nose, and Throat (ENT) images using vector field transformations and CLIP embeddings.
-
-## Sample Results
-
-### Query: Left Ear Image
-![Query Image](sample/ear-left/23078994_230405081302497831_121_image02.png)
-
-**Top 5 Retrieved Images:**
-1. Right Ear - Score: 0.8390
-2. Right Ear - Score: 0.8252  
-3. Left Ear - Score: 0.8226
-4. Right Ear - Score: 0.7651
-5. Left Ear - Score: 0.7628
-
-The system successfully retrieves anatomically similar ear images with high confidence scores, demonstrating effective cross-lateral matching between left and right ear structures.
-
 ## Overview
 
 The system uses a novel approach combining CLIP (Contrastive Language-Image Pre-training) embeddings with learned vector field transformations to improve medical image retrieval accuracy. The model achieves **95.4% Recall@1** on the test set.
